@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>شاشة عرض المنتجات</title>	
+	<link rel="stylesheet" type="text/css" href="home.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="UTF-8">
+	<meta name="description" content="Free Web tutorials">
+	<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+	<meta name="author" content="John Doe">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+</head>
+<body>
+  <header>
+    <h1></h1>
+    <nav>
+    
+		<ul>
+			<li><a href=index.html>الرئيسية</a></li>
+			<li><a href=About.html>اعرف عنا</a></li>
+			<li><a href=sall.html>منتجاتنا</a></li>
+
+			<a href="https://www.facebook.com/profile.php?id=100063865183109" target=_blank class="fab fa-facebook-f"><img src="Facebook_Logo_(2019).png" width="50"></a>
+            <a href="https://wa.me/+201091363695" target=_blank class="fab fa-whatsapp"> <img src="whlogo.png"width="50"></a>
+					<li><img src="lingerie stor.png" width="70"></li></ul>
+	</nav>
+  </header>
+	<div class="container">
+		<h1>منتجاتنا </h1>
+		<div class="products">
+			<!-- عرض المنتجات هنا -->
+		</div>
+		<div class="checkout">
+			<h2>تفاصيل التوصيل</h2>
+			<form>
+				<label for="phone">رقم الهاتف:</label>
+				<input type="tel" id="phone" name="phone" required>
+				<label for="address">العنوان:</label>
+				<input id="address" name="address" required></input>
+        <label for="cname">الاسم كاملا:</label>
+				<input id="cname" name="cname" required></input>
+			</form>
+			<h2>سلة المنتجات</h2>
+			<table>
+				<tr>
+					<th>اسم المنتج</th>
+					<th>السعر</th>
+					<th>الكمية</th>
+					<th>السعر الاجمالي</th>
+
+					
+				</tr>
+				<!-- عرض سلة المنتجات هنا -->
+			</table>
+			<button id="checkout-btn">تسجيل الطلب</button>
+		</div>
+	</div>
+  <footer>
+    <p>جميع الحقوق محفوظة &copy; 2021</p>
+    <p>للتواصل معنا:ahmed7gendy@gmail.com</p>
+  </footer>
+</body>
+	<!-- Add Bootstrap 4 JS -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+	<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+	<script src="java.js"></script>
+</html>
